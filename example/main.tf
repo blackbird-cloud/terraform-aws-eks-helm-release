@@ -1,10 +1,8 @@
 provider "aws" {}
 
 module "helm_release" {
-  #   source  = "blackbird-cloud/eks-helm-release/aws"
-  #   version = "~> 1"
-
-  source = "../"
+  source  = "blackbird-cloud/eks-helm-release/aws"
+  version = "~> 1"
 
   cluster_name = "my-develop-cluster"
 
