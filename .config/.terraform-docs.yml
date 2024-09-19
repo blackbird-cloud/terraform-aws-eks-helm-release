@@ -14,8 +14,8 @@ sections:
     - modules
 
 content: |-
-  # AWS EKS Helm release Terraform module
-  A Terraform module which configures your AWS EKS Helm release.
+  {{ include "./.config/title.md"}}
+
   {{ .Header }}
 
   ## Example
